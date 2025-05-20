@@ -24,6 +24,7 @@ val: images/val
 nc: 5
 names: ['Homer', 'Bart', 'Marge', 'Lisa', 'Maggie']
 
+```
 ## Installing requirements
 
     pip install -r requirements.txt
