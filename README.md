@@ -41,8 +41,8 @@ names: ['Homer', 'Bart', 'Marge', 'Lisa', 'Maggie']
 
 - Run prediction on a single image:
 
-  yolo task=segment mode=predict model=runs/segment/train/weights/best.pt source=sample.jpg
+      yolo task=segment mode=predict model=runs/segment/train/weights/best.pt source=sample.jpg
 
 - Run prediction on a folder of images:
 
-  yolo task=segment mode=predict model=runs/segment/train/weights/best.pt source=data/test_images/
+      yolo task=segment mode=predict model=runs/segment/train/weights/best.pt source=data/test_images/
