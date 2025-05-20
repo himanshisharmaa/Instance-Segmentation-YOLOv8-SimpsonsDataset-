@@ -31,11 +31,11 @@ names: ['Homer', 'Bart', 'Marge', 'Lisa', 'Maggie']
 
 ## Training
 
-  yolo task=segment mode=train model=yolov8n-seg.pt data=simpsons.yaml epochs=50 imgsz=640
+      yolo task=segment mode=train model=yolov8n-seg.pt data=simpsons.yaml epochs=50 imgsz=640
 
 ## Evaluation
 
-  yolo task=segment mode=val model=runs/segment/train/weights/best.pt data=simpsons.yaml
+      yolo task=segment mode=val model=runs/segment/train/weights/best.pt data=simpsons.yaml
 
 ## Inference
 
